@@ -1,0 +1,144 @@
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contacto input {
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  height: 40px;
+  outline: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  padding: 10px;
+  font-size: 1.2rem;
+}
+.contacto input:hover {
+  -webkit-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+}
+.contacto label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+  color: black;
+}
+.horario-de-contacto {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+  color: black;
+}
+.horario-de-contacto select {
+  height: 40px;
+  font-size: 1.2rem;
+}
+.datos-personales {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+  color: black;
+}
+.datos-personales .afip {
+  width: 80%;
+  margin: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.datos-personales input {
+  width: 80%;
+  height: 40px;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+}
+.datos-personales input:hover {
+  -webkit-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+}
+.datos-personales .afip label {
+  font-size: 1.2rem;
+}
+.datos-personales .afip input {
+  width: 40%;
+  height: 20px;
+  outline: none;
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+}
+.datos-personales .afip input:hover {
+  box-shadow: none;
+  scale: 1.2;
+}
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+  margin: 20px;
+}
+.mensaje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.mensaje label {
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+.mensaje label {
+  font-size: 1.2rem;
+  color: black;
+  margin-top: 15px;
+}
+.mensaje textarea {
+  width: 80%;
+  height: 200px;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  font-size: 1.2rem;
+}
+.mensaje textarea:hover {
+  -webkit-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+}
+[type="submit"] {
+  width: 80%;
+  height: 40px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+}
+[type="submit"]:hover {
+  background-color: aqua;
+  -webkit-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 14px 0px 23px 1px rgba(0, 0, 0, 0.75);
+}
+@media (max-width: 800px) {
+  .horario-de-contacto {
+    flex-direction: column;
+  }
+  .datos-personales .afip {
+    flex-direction: column;
+  }
+}

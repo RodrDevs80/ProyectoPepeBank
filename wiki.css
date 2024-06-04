@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buscar {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 30px;
+  padding: 5px;
+}
+.buscar input {
+  border: none;
+  outline: none;
+}
+.btn {
+  outline: none;
+  height: 30px;
+  margin-left: 30px;
+}
+.buscador {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  height: 30px;
+  border: 1px solid #000;
+}
+.logos {
+  display: flex;
+  align-items: center;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.personaje-idiomas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personaje {
+  margin-left: 1%;
+  width: 21%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+h1,
+h2 {
+  font-size: 1.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.derecha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.izquierda {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.marco {
+  margin: 15px;
+}
+.texto {
+  width: 65%;
+  height: 100%;
+}
+.texto p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.cuadro {
+  width: 30%;
+  height: 100%;
+  background-color: rgb(255, 250, 250);
+  margin-left: 2%;
+  border: 1px solid #000;
+}
+#separacion {
+  margin-top: 240px;
+}
+.cuadro .titulo-imagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cuadro .titulo-imagen h2 {
+  background-color: #8db1c3;
+  width: 98%;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.cuadro h3 {
+  background-color: #8db1c3;
+  width: 98%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 2px;
+}
+table tr td {
+  margin: 20px;
+}
+.vida-personal {
+  margin: 23px;
+}
+.referencias {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 23px;
+  margin-right: 23px;
+}
+.listaref {
+  margin: 23px;
+}
+.mw-footer-container {
+  margin-left: 22px;
+  padding-top: 50px;
+  padding-bottom: 82px;
+}
+#footer-info {
+  list-style: none;
+}
+#footer-places {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-right: 15px;
+  list-style: none;
+}

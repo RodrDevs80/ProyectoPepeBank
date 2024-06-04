@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opere con su cuenta</title>
+    <link rel="shortcut icon" href="./assets/img/atm.svg" type="image/x-icon">
+    <link rel="stylesheet" href="interiorCajero.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="container-maquina">
+        <section class="conteiner-btn">
+            <button id="saldo">Saldo</button>
+            <button id="deposito">Deposito</button>
+            <button id="extraccion">Extracción</button>
+            <button id="resumen">Resumen</button>
+            <button id="cambio-de-clave">Cambio de Clave</button>
+            <button id="salir">Salir</button>
+        </section>
+        <section class="display" id="display">
+            <img src="./assets/img/robot.svg" alt="robot" width="60px">
+            <h2>BIENVENID@</h2>
+            <button class="btn-operacion" id="btn-operacion">Realizar Operación</button>
+        </section>
+    </main>
+    <div id="modal" class="modal">
+        <div class="modal-contenido">
+            <h1>Resumen de Actividad de la cuenta</h1>
+            <h3 id="modal-contenido"></h3>
+            <button id="cerrarModal">Cerrar</button>
+        </div>
+    </div>
+    <footer>
+        <p><strong>© Copyright 2024-Bad&#128128;design</strong></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/ca5ef2b8ee.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./usuarioCajero.js"></script>
+    <script src="./interiorCajero.js"></script>
+</body>
+
+</html>
