@@ -259,4 +259,7 @@ ul li {
   .conteiner-btn > button:hover {
     background-color: rgb(50, 50, 107);
   }
+  .monto::placeholder {
+    font-size: small;
+  }
 }
