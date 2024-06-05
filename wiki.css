@@ -178,3 +178,59 @@ table tr td {
   margin-right: 15px;
   list-style: none;
 }
+@media (max-width: 700px) {
+  h1,
+  h2 {
+    font-size: 1.2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+  }
+
+  main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: 350px;
+  }
+  .marco {
+    margin: 26px;
+  }
+  .texto {
+    width: 90%;
+    height: 100%;
+  }
+  .texto p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .cuadro {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 250, 250);
+    border: 1px solid #000;
+    margin-bottom: 20px;
+  }
+  #separacion {
+    margin-top: 1000px;
+  }
+  section {
+    width: 90%;
+  }
+  .mw-footer-container {
+    display: none;
+  }
+  .link {
+    display: none;
+  }
+  .items {
+    display: none;
+  }
+  .personaje-idiomas {
+    width: 100%;
+    padding: 20px;
+  }
+}
